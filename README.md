@@ -16,4 +16,8 @@
 ------------
 * credits
  
-* Owners :- @iTz_DEv_xD , @iTz_AlphA_xD
+* Owners :-
+
+* [DEV-END](https://t.me/iTz_DEv_xD)
+
+* [ALPHA](https://t.me/iTz_AlphA_xD)
