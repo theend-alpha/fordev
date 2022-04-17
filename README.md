@@ -1,3 +1,9 @@
+* credits
+ 
+* Owners :- [DEV-END](https://t.me/iTz_DEv_xD) , [ALPHA](https://t.me/NotReallyAlpha)
+
+-------------
+
 # STRING-GENERATOR BOT
 
 - This Bot Can Help U To Generate String Session Pyrogram and Telethon 
@@ -14,9 +20,6 @@
 - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ------------
-* credits
- 
-* Owners :- [DEV-END](https://t.me/iTz_DEv_xD) , [ALPHA](https://t.me/iTz_AlphA_xD)
 
 
 
