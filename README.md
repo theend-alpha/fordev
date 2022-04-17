@@ -1,4 +1,4 @@
-* credits
+# Credits
  
 * Owners :- [DEV-END](https://t.me/iTz_DEv_xD) , [ALPHA](https://t.me/NotReallyAlpha)
 
