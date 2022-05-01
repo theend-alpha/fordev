@@ -11,6 +11,7 @@ Welcome to {} Made by Alpha ©
 Do what ya want 
 
 Join group for entertainment!
+
     """
 
     # Home Button
