@@ -55,6 +55,9 @@ Last updated - 01/05/2022
 » Choose what ya want ! 
 » Submit API ID , API HASH , NUMBER , CODE !
 » STRING WILL BE SENT TO SAVED MESSAGES ! ✨💫
+____
+
+Thx for using our bot ! ✨💫
 
 """
 
