@@ -35,7 +35,10 @@ Join group for entertainment!
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton(" About", callback_data="about")
         ],
-        [InlineKeyboardButton("Owner", url="https://t.me/NotReallyAlpha")],
+        [
+            InlineKeyboardButton("Owner", url="https://t.me/NotReallyAlpha"),
+            InlineKeyboardButton("Group", url="https://t.me/BTS_CHAT_ZONE")
+        ],
     ]
 
     # Help Message
