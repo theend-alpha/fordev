@@ -29,7 +29,7 @@ if __name__ == "__main__":
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
     uname = app.get_me().username
-    print(f"@{uname} Started Successfully!")
+    print(f"@{uname} Started Successfully visit other repositories of Alpha!")
     idle()
     app.stop()
     print("Bot stopped. problem is yours coz this repo made by alpha !")
