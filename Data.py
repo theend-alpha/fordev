@@ -43,9 +43,13 @@ Join group for entertainment!
 
     # Help Message
     HELP = """
-» Click the below button or use /generate command to start generating session!
-» select pyrogram for music and telethon for rest
-» Api id , Api hash , phone number required.
+» click on generate button ; Then you'll get to see two buttons 
+» 1.Pyrogram - For music bots 
+» 2.Telethon - For all bots except music one !
+» Choose what ya want ! 
+» Submit API ID , API HASH , NUMBER , CODE !
+» STRING WILL BE SENT TO SAVED MESSAGES ! ✨💫
+
 """
 
     # About Message
