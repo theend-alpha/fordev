@@ -1,6 +1,6 @@
-### Alpha
+## Alpha
 
-  ![ALPHA][(https://te.legra.ph/file/73640a2e244e60fccfa70.jpg)(https://t.me/NotReallyAlpha)]
+  ![ALPHA](https://user-images.githubusercontent.com/101687704/166145466-4d238fb8-552d-4a6a-9364-4f9e07876f7d.jpeg)(https://t.me/NotReallyAlpha)
 
 # Credits
  
