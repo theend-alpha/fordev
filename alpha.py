@@ -25,9 +25,9 @@ if __name__ == "__main__":
     try:
         app.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
-        raise Exception("Your API_ID/API_HASH is not valid.")
+        raise Exception("Your API_ID/API_HASH is not valid,Fooling Alpha or what !")
     except AccessTokenInvalid:
-        raise Exception("Your BOT_TOKEN is not valid.")
+        raise Exception("Your BOT_TOKEN is not valid,Bot token Bruhh!")
     uname = app.get_me().username
     print(f"@{uname} Started Successfully visit other repositories of Alpha!")
     idle()
