@@ -14,7 +14,7 @@ _____________
 
 <h3> Dєρℓογ το нєяοκυ </h3>
 
-- CLICK DEPLOY ALPHA 
+- CLICK ON IMAGE BELOW 👇! 
 
 - [![Deploy](https://te.legra.ph/file/036a953de0ad5669ed6e4.jpg)](https://heroku.com/deploy?template=https://github.com/theend-alpha/StringBot.git)
 
