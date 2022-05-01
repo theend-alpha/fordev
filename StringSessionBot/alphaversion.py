@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 
 @Client.on_message(filters.private & filters.incoming & filters.command("alphaversion"))
-async def alphaversion(bot, msg):
+async def _alphaversion(bot, msg):
     await bot.send_message(
         msg.chat.id,
         Data.ALPHAVERSION,
