@@ -4,13 +4,13 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Hey {}!! Nice to see ya here !
 
 Welcome to {} Made by Alpha © 
 
-Do what ya want 
+Do what ya want !
 
-Join group for entertainment!
+Join our group for entertainment !
 
     """
 
@@ -43,6 +43,9 @@ Join group for entertainment!
 
     # Help Message
     HELP = """
+** Perfect Tutorial **
+
+
 » click on generate button ; Then you'll get to see two buttons 
 » 1.Pyrogram - For music bots 
 » 2.Telethon - For all bots except music one !
