@@ -56,6 +56,7 @@ Bot to generate session with privacy ! [Alpha](https://t.me/NotReallyAlpha) ©
 [Dev](https://t.me/iTz_DEv_xD)
 [Alpha](https://t.me/NotReallyAlpha)
 
-Language : [Python](www.python.org)
-            **Regarding ~ **@BTS_CHAT_ZONE 💜 
+Language Used : Python
+           
+Contact Owner and Developers [here](https://t.me/BTS_CHAT_ZONE) 
 """
