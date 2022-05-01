@@ -23,25 +23,25 @@ from telethon.errors import (
 )
 
 ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
-            "\n\nPlease forward this to @LegendBot_OP if this message doesn't contain any " \
+            "\n\nPlease forward this to @BTS_CHAT_ZONE if this message doesn't contain any " \
             "sensitive information and for your information : **These kinda error logs are not stored in our database!**"
 
 
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
 async def main(_, msg):
     await msg.reply(
-        "Please choose the python library you want to generate string session for",
+        "Choose which type of session you needed !",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("Pyrogram", callback_data="pyrogram"),
-            InlineKeyboardButton("Telethon", callback_data="telethon")
+            InlineKeyboardButton("Pyrogram Session", callback_data="pyrogram"),
+            InlineKeyboardButton("Telethon Session", callback_data="telethon")
         ]])
     )
 
 
 async def generate_session(bot, msg, telethon=False):
-    await msg.reply("Starting {} Session Generation...".format("Telethon" if telethon else "Pyrogram"))
+    await msg.reply("{} String generation started by Alpha".format("Telethon" if telethon else "Pyrogram"))
     user_id = msg.chat.id
-    api_id_msg = await bot.ask(user_id, 'Please send your `API_ID`', filters=filters.text)
+    api_id_msg = await bot.ask(user_id, 'Please enter your `API_ID`', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     try:
@@ -49,11 +49,11 @@ async def generate_session(bot, msg, telethon=False):
     except ValueError:
         await api_id_msg.reply('Not a valid API_ID (which must be an integer). Please start generating session again.', quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
-    api_hash_msg = await bot.ask(user_id, 'Please send your `API_HASH`', filters=filters.text)
+    api_hash_msg = await bot.ask(user_id, 'Please enter your `API_HASH`', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     api_hash = api_hash_msg.text
-    phone_number_msg = await bot.ask(user_id, 'Now please send your `PHONE_NUMBER` along with the country code. \nExample : `+917936482542`', filters=filters.text)
+    phone_number_msg = await bot.ask(user_id, 'Now enter your `PHONE_NUMBER` along with the country code. \nSame as : `+919988776655`', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     phone_number = phone_number_msg.text
@@ -113,20 +113,20 @@ async def generate_session(bot, msg, telethon=False):
     if telethon:
         string_session = client.session.save()
         try:
-            await client(JoinChannelRequest("@LegendBot_AI"))
+            await client(JoinChannelRequest("@BTS_CHAT_ZONE"))
             await client(LeaveChannelRequest("@Legend_Userbot"))
             await client(LeaveChannelRequest("@Official_LegendBot"))
         except BaseException:
             pass
     else:
         string_session = await client.export_session_string()
-    L_PIC = "https://te.legra.ph/file/4cd4fe720a6bd77481158.jpg"
+    L_PIC = "https://te.legra.ph/file/ea5ae1ac096f1d9034100.jpg"
     if telethon:
         await client.send_file("me", L_PIC, caption="**{} - STRING SESSION** \n\n`{}`\n\n• __Dont Share String Session With Anyone__\n• __Dont Invite Anyone To Heroku__".format("TELETHON" if telethon else "PYROGRAM", string_session))
     else:
         await client.send_message("me", "**{} ~ STRING SESSION** \n\n`{}` \n\n• __Dont Share String Session With Anyone__\n• __Dont Invite Anyone To Heroku__".format("TELETHON" if telethon else "PYROGRAM", string_session))
     await client.disconnect()
-    await phone_code_msg.reply("Successfully String  Session Has Been Generated {} \n\nPlease check your saved messages!".format("TELETHON" if telethon else "PYROGRAM"), reply_markup=InlineKeyboardMarkup(Data.support_button))
+    await phone_code_msg.reply("Successfully String  Session Has Been Generated {} by Alpha \n\nPlease check your saved messages!".format("TELETHON" if telethon else "PYROGRAM"), reply_markup=InlineKeyboardMarkup(Data.support_button))
 
 
 async def cancelled(msg):
