@@ -50,9 +50,9 @@ Join group for entertainment!
 
     # About Message
     ABOUT = """
-👨‍💻 **About Me** 
+** Alpha String Bot © **
 
-Bot to generate session with privacy ! [Alpha](https://t.me/NotReallyAlpha) © 
+Bot to generate session with privacy ! [©](https://t.me/NotReallyAlpha) © 
 [Dev](https://t.me/iTz_DEv_xD)
 [Alpha](https://t.me/NotReallyAlpha)
 
