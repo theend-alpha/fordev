@@ -17,7 +17,8 @@ Last updated - 01/05/2022
     # Home Button
     home_buttons = [
         [InlineKeyboardButton("Click here to Generate", callback_data="generate")],
-        [InlineKeyboardButton(text=" Back ", callback_data="home")]
+        [InlineKeyboardButton(text=" Back ", callback_data="home")],
+        [InlinekeyboardButton(text=" Commands ", callback_data="commands")]
     ]
 
     generate_button = [
@@ -59,9 +60,20 @@ Last updated - 01/05/2022
 
 Bot to generate session with privacy ! [©](https://t.me/NotReallyAlpha) 
 
-[𝙳𝙴𝚟](https://t.me/iTz_DEv_xD) | [𝐀𝐋𝐏𝐇𝐀](https://t.me/NotReallyAlpha)
+[𝐃𝐄𝐯𝐄𝐬𝐇](https://t.me/iTz_DEv_xD) | [𝐀𝐋𝐏𝐇𝐀](https://t.me/NotReallyAlpha)
 
 Language Used : Python
            
 Contact Owner and Developers [here](https://t.me/BTS_CHAT_ZONE) 
+"""
+
+   # Commands
+   COMMANDS = """
+** Available commands in Alpha Bot **
+
+/start    - To start the bot ✨💫
+/generate - To start string generation !
+/help     - To view the tutorial.
+/about    - Details to contact the developer !
+
 """
