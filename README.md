@@ -1,3 +1,7 @@
+### Alpha
+
+  ![ALPHA][(https://te.legra.ph/file/73640a2e244e60fccfa70.jpg)(https://t.me/NotReallyAlpha)]
+
 # Credits
  
 * Owners :- [DEV-END](https://t.me/iTz_DEv_xD) , [ALPHA](https://t.me/NotReallyAlpha)
