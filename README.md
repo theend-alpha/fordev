@@ -4,13 +4,10 @@
 
 -------------
 
-# STRING-GENERATOR BOT
+# Available in telegram as [End](https://t.me/EndStringBot)
 
-- This Bot Can Help U To Generate String Session Pyrogram and Telethon 
+_____________
 
-- ⚠️ Note : Dont Try To Missuse This Bot.
-
-------------
 <h3> Dєρℓογ το нєяοκυ </h3>
 
 - FORK THIS REPO
