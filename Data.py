@@ -32,8 +32,8 @@ Join group for entertainment!
     buttons = [
         [InlineKeyboardButton("Click here to Generate", callback_data="generate")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton(" About", callback_data="about")
+            InlineKeyboardButton("Tutorial", callback_data="help"),
+            InlineKeyboardButton("Contact", callback_data="about")
         ],
         [
             InlineKeyboardButton("Owner", url="https://t.me/NotReallyAlpha"),
