@@ -14,13 +14,17 @@ _____________
 
 <h3> Dєρℓογ το нєяοκυ </h3>
 
-- FORK THIS REPO
+- CLICK DEPLOY ALPHA 
 
-- THEN CLICK BELOW BUTTON 
-
-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/theend-alpha/StringBot.git)
+- [![Deploy](https://te.legra.ph/file/036a953de0ad5669ed6e4.jpg)](https://heroku.com/deploy?template=https://github.com/theend-alpha/StringBot.git)
 
 ------------
 
+<h3> Forked deployment </h3>
 
+- FORK THIS REPO
+
+- EDIT REPO IN README.MD 
+
+- IF U R A BEGINNER , SOON YOU WILL SEE A VIDEO HERE !
 
