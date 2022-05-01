@@ -1,6 +1,6 @@
 {
-  "name": "String Session Generator",
-  "description": "Telegram bot to generate Pyrogram & Telethon StringSession Made By Alpha(@iTz_AlphA_xD)",
+  "name": "String Generator by Alpha",
+  "description": "Telegram bot to generate Pyrogram & Telethon StringSession Made By Alpha",
   "logo": "https://te.legra.ph/file/ac72a0208034b15f04c18.jpg",
   "keywords": [
     "telegram",
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/theend-alpha/STRING-GENERATE",
+  "repository": "https://github.com/theend-alpha/StringBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
