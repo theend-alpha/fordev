@@ -59,9 +59,9 @@ Join our group for entertainment !
     ABOUT = """
 ** Alpha String Bot © **
 
-Bot to generate session with privacy ! [©](https://t.me/NotReallyAlpha) © 
-[Dev](https://t.me/iTz_DEv_xD)
-[Alpha](https://t.me/NotReallyAlpha)
+Bot to generate session with privacy ! [©](https://t.me/NotReallyAlpha) 
+
+[𝙳𝙴𝚟](https://t.me/iTz_DEv_xD) | [𝐀𝐋𝐏𝐇𝐀](https://t.me/NotReallyAlpha)
 
 Language Used : Python
            
