@@ -17,7 +17,7 @@
 
 - THEN CLICK BELOW BUTTON 
 
-- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/theend-alpha/STRING-GENERATE.git)
+- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/theend-alpha/StringBot.git)
 
 ------------
 
