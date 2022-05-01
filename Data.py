@@ -8,9 +8,9 @@ Hey {}!! Nice to see ya here !
 
 Welcome to {} Made by Alpha © 
 
-Do what ya want !
+End Version - end.2.0 ©
 
-Join our group for entertainment !
+Last updated - 01/05/2022
 
     """
 
