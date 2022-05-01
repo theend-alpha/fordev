@@ -41,6 +41,26 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
+    elif query == "commands":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.message_id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.COMMANDS,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.home_buttons),
+         )
+     elif query == "alphaversion":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.message_id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.ALPHAVERSION,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.home_buttons),
+        )
     elif query == "generate":
         await callback_query.message.reply(
             "Choose which type of session you needed !",
