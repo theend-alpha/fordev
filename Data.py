@@ -6,9 +6,11 @@ class Data:
     START = """
 Hey {}
 
-Welcome to {} Made by [Alpha](https://t.me/NotReallyAlpha)
+Welcome to {} Made by [Alpha](https://t.me/NotReallyAlpha) © 
 
-You can use me to generate pyrogram and telethon string session. Use the below buttons to know more!
+Do what ya want 
+
+Join group for entertainment!
     """
 
     # Home Button
