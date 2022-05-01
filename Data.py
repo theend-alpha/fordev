@@ -6,7 +6,7 @@ class Data:
     START = """
 Hey {}
 
-Welcome to {} Made by [Alpha](https://t.me/NotReallyAlpha) © 
+Welcome to {} Made by Alpha © 
 
 Do what ya want 
 
