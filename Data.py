@@ -43,8 +43,6 @@ Join our group for entertainment !
 
     # Help Message
     HELP = """
-** Perfect Tutorial **
-
 
 » click on generate button ; Then you'll get to see two buttons 
 » 1.Pyrogram - For music bots 
