@@ -6,52 +6,50 @@ class Data:
     START = """
 Hey {}
 
-Welcome to {}
+Welcome to {} Made by [Alpha](https://t.me/NotReallyAlpha)
 
 You can use me to generate pyrogram and telethon string session. Use the below buttons to know more!
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("⚜ Start Generating Session ⚜", callback_data="generate")],
+        [InlineKeyboardButton("Click here to Generate", callback_data="generate")],
         [InlineKeyboardButton(text=" Back ", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton("Click here to Generate", callback_data="generate")]
     ]
 
     support_button = [
-        [InlineKeyboardButton("⚜ Support ⚜", url="https://t.me/BTS_CHAT_ZONE")]
+        [InlineKeyboardButton("Group", url="https://t.me/BTS_CHAT_ZONE")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("👨‍💻 Repo 👨‍💻", url="https://github.com/theend-alpha/STRING-GENERATE")],
+        [InlineKeyboardButton("Click here to Generate", callback_data="generate")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton(" About", callback_data="about")
         ],
-        [InlineKeyboardButton("🇮🇳 Owner 🇮🇳", url="https://t.me/NotReallyAlpha")],
+        [InlineKeyboardButton("Owner", url="https://t.me/NotReallyAlpha")],
     ]
 
     # Help Message
     HELP = """
 » Click the below button or use /generate command to start generating session!
-» Click the required button; [Pyrogram/Telethon]
-» Enter the required variables when asked.
+» select pyrogram for music and telethon for rest
+» Api id , Api hash , phone number required.
 """
 
     # About Message
     ABOUT = """
 👨‍💻 **About Me** 
 
-A telegram bot to generate pyrogram and telethon string session...
-
-[Pyrogram](docs.pyrogram.org)
-[Telethon](docs.telethon.org)
+Bot to generate session with privacy ! [Alpha](https://t.me/NotReallyAlpha) © 
+[Dev](https://t.me/iTz_DEv_xD)
+[Alpha](https://t.me/NotReallyAlpha)
 
 Language : [Python](www.python.org)
-            **Regarding ~ **@BTS_CHAT_ZONE
+            **Regarding ~ **@BTS_CHAT_ZONE 💜 
 """
