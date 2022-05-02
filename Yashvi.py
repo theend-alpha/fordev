@@ -3,6 +3,12 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
    
+   #alpha_buttons
+   alpha_buttons =
+
+
+
+
 # Commands
    CMDA = """
  Available commands in Alpha Bot 
