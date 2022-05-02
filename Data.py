@@ -39,6 +39,10 @@ Last updated - 01/05/2022
             InlineKeyboardButton("Owner", url="https://t.me/NotReallyAlpha"),
             InlineKeyboardButton("Group", url="https://t.me/BTS_CHAT_ZONE")
         ],
+        [
+            InlineKeyboardButton(" Commands ", callback_data="cmda"),
+            InlineKeyboardButton(" Alphaversion ", callback_data="alphaversion")
+        ],  
     ]
 
     # Help Message
