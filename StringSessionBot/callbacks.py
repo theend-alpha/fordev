@@ -1,4 +1,5 @@
 from Data import Data
+from Yashvi import Data
 from pyrogram import Client
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 from StringSessionBot.generate import generate_session, ERROR_MESSAGE
@@ -47,7 +48,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text=Data.CMDA,
+            text=Keshav.CMDA,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
          )
@@ -57,7 +58,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text=Data.ALPHAVERSION,
+            text=Keshav.ALPHAVERSION,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
