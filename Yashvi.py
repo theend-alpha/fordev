@@ -5,10 +5,9 @@ class Keshav:
    
     #Alpha Buttons
     alpha_buttons = [
-
-              [InlineKeyboardButton(" Commands ", callback_data="cmda")],
-              [InlineKeyboardButton(" Alphaversion ", callback_data="alphaversion")]
-         ]
+         [InlineKeyboardButton(" Commands ", callback_data="cmda")],
+         [InlineKeyboardButton(" Alphaversion ", callback_data="alphaversion")]
+    ]
 
 
     # Commands
