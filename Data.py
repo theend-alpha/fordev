@@ -90,9 +90,9 @@ Contact Owner and Developers [here](https://t.me/BTS_CHAT_ZONE)
     ALPHAVERSION = """
 **Alpha Version**
 
-$ Version Name        - end.2.0
-$ Version released on - 01/05/2022
-$ Updated by          - [Alpha](t.me/NotReallyAlpha)
+$ Version Name     - end.2.0
+$ Version started  - 01/05/2022
+$ Updated by       - [Alpha](t.me/NotReallyAlpha)
 
 **Updated features**
 
@@ -105,7 +105,7 @@ $ Bug fixes
 $ you can see next update on 15/05/2022 !
 $ going to add cool pic : when the user starts the bot !
 
----
-$ If any suggestions --> [Alpha](t.me/NotReallyAlpha)
+_____
+$ If any suggestions   ••>>  [Alpha](t.me/NotReallyAlpha)
 
 """
