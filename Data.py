@@ -19,7 +19,7 @@ Last updated - 01/05/2022
         [InlineKeyboardButton("Click here to Generate", callback_data="generate")],
         [InlineKeyboardButton(text=" Back ", callback_data="home")],
         [InlineKeyboardButton(text=" Commands ", callback_data="cmda")],
-        [InlineKeyboardButton(text=" Version ", callback_data="cmda")]
+        [InlineKeyboardButton(text=" Version ", callback_data="alphaversion")]
     ]
 
     generate_button = [
