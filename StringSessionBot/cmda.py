@@ -1,4 +1,5 @@
 from Yashvi import Keshav
+from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
 
@@ -9,5 +10,5 @@ async def _cmda(bot, msg):
         msg.chat.id,
         Keshav.CMDA,
         disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup(Keshav.home_buttons),
+        reply_markup=InlineKeyboardMarkup(Data.home_buttons),
     )
