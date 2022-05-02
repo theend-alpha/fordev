@@ -40,7 +40,7 @@ $ Bug fixes
 $ you can see next update on 15/05/2022 !
 $ going to add cool pic : when the user starts the bot !
 
----
-$ If any suggestions --> [Alpha](t.me/NotReallyAlpha)
+_____
+$ If any suggestions  ••>>  [Alpha](t.me/NotReallyAlpha)
 
 """
