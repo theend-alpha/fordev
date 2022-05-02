@@ -25,9 +25,9 @@ class Keshav:
     ALPHAVERSION = """
 **Alpha Version**
 
-$ Version Name        - end.2.0
-$ Version released on - 01/05/2022
-$ Updated by          - [Alpha](t.me/NotReallyAlpha)
+$ Version Name    - end.2.0
+$ Version started - 01/05/2022
+$ Updated by      - [Alpha](t.me/NotReallyAlpha)
 
 **Updated features**
 
