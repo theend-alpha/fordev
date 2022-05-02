@@ -4,7 +4,9 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
    
    #alpha_buttons
-   alpha_buttons =
+   alpha_buttons = [
+
+              [InlineKeyboardButton(" Commands ", callback_data
 
 
 
