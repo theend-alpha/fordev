@@ -6,7 +6,9 @@ class Data:
    #alpha_buttons
    alpha_buttons = [
 
-              [InlineKeyboardButton(" Commands ", callback_data
+              [InlineKeyboardButton(" Commands ", callback_data="cmda")],
+              [InlineKeyboardButton(" Alphaversion ", callback_data="alphaversion")]
+         ]
 
 
 
