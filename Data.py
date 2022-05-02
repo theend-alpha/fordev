@@ -18,7 +18,7 @@ Last updated - 01/05/2022
     home_buttons = [
         [InlineKeyboardButton("Click here to Generate", callback_data="generate")],
         [InlineKeyboardButton(text=" Back ", callback_data="home")],
-        [InlinekeyboardButton(text=" Commands ", callback_data="commands")]
+        [InlinekeyboardButton(text=" Commands ", callback_data="cmda")]
     ]
 
     generate_button = [
