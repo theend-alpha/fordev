@@ -3,16 +3,16 @@ from pyrogram.types import InlineKeyboardButton
 
 class Keshav:
    
-   #Alpha Buttons
-   alpha_buttons = [
+    #Alpha Buttons
+    alpha_buttons = [
 
               [InlineKeyboardButton(" Commands ", callback_data="cmda")],
               [InlineKeyboardButton(" Alphaversion ", callback_data="alphaversion")]
          ]
 
 
-# Commands
-   CMDA = """
+    # Commands
+    CMDA = """
 **Available commands in Alpha Bot**
 
 /start    - To start the bot ✨💫
@@ -23,7 +23,7 @@ class Keshav:
 """
 
     # version
-   ALPHAVERSION = """
+    ALPHAVERSION = """
 **Alpha Version**
 
 $ Version Name        - end.2.0
