@@ -13,7 +13,7 @@ class Keshav:
 
 # Commands
    CMDA = """
- Available commands in Alpha Bot 
+**Available commands in Alpha Bot**
 
 /start    - To start the bot ✨💫
 /generate - To start string generation !
@@ -24,19 +24,19 @@ class Keshav:
 
     # version
     ALPHAVERSION = """
- Alpha Version 
+**Alpha Version**
 
 $ Version Name        - end.2.0
 $ Version released on - 01/05/2022
 $ Updated by          - [Alpha](t.me/NotReallyAlpha)
 
- Updated features 
+**Updated features**
 
 $ Added "commands" button for new users !
 $ Added "Alpha Version" button !
 $ Bug fixes 
 
- Upcoming update 
+**Upcoming update**
 
 $ you can see next update on 15/05/2022 !
 $ going to add cool pic : when the user starts the bot !
