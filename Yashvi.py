@@ -12,9 +12,10 @@ class Keshav:
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("Click here to Generate", callback_data="generate")],
-        [InlineKeyboardButton(text=" Back ", callback_data="home")]
-    ]
+
+              [InlineKeyboardButton("Click here to Generate", callback_data="generate")],
+              [InlineKeyboardButton(text=" Back ", callback_data="home")]
+         ]
 
 
 
