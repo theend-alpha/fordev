@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00FFFF&width=420&lines=Repo+is+Alive+and+working%F0%9F%98%98;checked+on+May+03%E2%9D%A4%EF%B8%8F">
+</p> 
+<br>
+__________________________________
+
 ## Alpha ©
 
   [![ALPHA](https://user-images.githubusercontent.com/101687704/166145466-4d238fb8-552d-4a6a-9364-4f9e07876f7d.jpeg)](https://t.me/NotReallyAlpha)
