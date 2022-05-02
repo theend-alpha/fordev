@@ -3,13 +3,18 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
    
-   #alpha_buttons
+   #Alpha Buttons
    alpha_buttons = [
 
               [InlineKeyboardButton(" Commands ", callback_data="cmda")],
               [InlineKeyboardButton(" Alphaversion ", callback_data="alphaversion")]
          ]
 
+    # Home Button
+    home_buttons = [
+        [InlineKeyboardButton("Click here to Generate", callback_data="generate")],
+        [InlineKeyboardButton(text=" Back ", callback_data="home")]
+    ]
 
 
 
