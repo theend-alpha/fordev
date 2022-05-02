@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 
-class Data:
+class Keshav:
    
    #Alpha Buttons
    alpha_buttons = [
