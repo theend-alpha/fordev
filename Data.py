@@ -75,7 +75,7 @@ Contact Owner and Developers [here](https://t.me/BTS_CHAT_ZONE)
 """
 
 # Commands
-   COMMANDS = """
+   CMDA = """
  Available commands in Alpha Bot 
 
 /start    - To start the bot ✨💫
